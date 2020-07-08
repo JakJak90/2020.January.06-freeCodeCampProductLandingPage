@@ -1,0 +1,171 @@
+body {
+	background-color: rgb(238, 238, 238);
+}
+
+header {
+	position: fixed;
+	top: 0;
+	z-axis: 2;
+}
+#nav-bar {
+	position: fixed;
+	height: 60px;
+	width: 98vw;
+	background-color: rgb(238, 238, 238);
+}
+
+#header-img {
+	height: 100%;
+	width: 100%;
+	max-width: 300px;
+	padding-left: 2vw;
+	float: left;
+}
+
+ul {
+	padding-right: 2vw;
+	display: flex;
+	float: right;
+	list-style-type: none;
+	justify-content: space-around;
+}
+li a {
+	text-decoration: none;
+	color: rgb(38, 0, 0);
+}
+
+.nav-link {
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.top {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+#email {
+	width: 250px;
+	height: 20px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#submit {
+	background-color: rgb(241, 196, 15);
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 50px;
+	padding-top: 50px;
+}
+
+.icons {
+	color: rgb(255, 140, 0);
+	display: flex;
+	font-size: 48px;
+	justify-content: right;
+	align-self: center;
+	z-axis: 0;
+}
+
+.gridinfo{
+	
+}
+
+.gridinfo h2 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.gridinfo p {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+iframe {
+	width: 100%;
+	max-width: 560px;
+	height: 315px;
+	display: flex;
+	justify-content: center;	
+}
+
+#How-It-Works {
+	padding-top: 75px;
+	display: flex;
+	justify-content: center;
+}
+
+#pricing {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-gap: 10px;
+}
+
+#pricing div {
+	margin-top: 50px;
+	border: solid black 2px;
+}
+
+.prcgrid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.prchead {
+	width: 100%;
+	height: 100%;
+	Margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: rgb(221, 221, 221);
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.prc {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.select {
+	background-color: gold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.select:hover {
+	background-color: rgb(241, 196, 15);
+}
+
+.prcbody {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
